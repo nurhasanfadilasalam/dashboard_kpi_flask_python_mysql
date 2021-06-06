@@ -1,0 +1,38 @@
+body {
+    background-color: skyblue;
+}
+
+.mapdiv{
+    width: 70%;
+    /* margin: auto; */
+    margin-top: 20px;
+    
+}
+
+.mapdiv path {
+    fill: rgb(119, 88, 18);
+    /* stroke: #dece0c; */
+    stroke: #f1f1f1;
+
+    stroke-width: 1px;
+    transition: fill 0.1s;
+}
+
+.mapdiv :hover{
+    fill:rgb(38, 184, 69);
+}
+
+.tooltip {
+    visibility: visible;
+    position: absolute;
+    width: 440px;
+    min-height: 170px;
+    background-color: rgba(161, 161, 161, 0.747);
+    box-shadow: 0px 0px 5px 2px black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tooltip-show {
+    visibility: visible;
+}
